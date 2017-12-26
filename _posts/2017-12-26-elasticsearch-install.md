@@ -5,7 +5,7 @@ crawlertitle: "Hello"
 summary: "default page"
 date:   2017-12-26 11:10:00
 categories: posts
-tags: 'Elasticsearch - 1.7.6'
+tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
 ##### Elasticsearch 是一个实时的分布式搜索分析引擎

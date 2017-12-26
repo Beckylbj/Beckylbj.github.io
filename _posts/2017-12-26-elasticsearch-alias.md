@@ -9,7 +9,7 @@ tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
 ##### Elasticsearch的别名
-###### index aliases的API允许我们为一个index指定别名。一个别名能够被映射到多个index中，当指定了index对应已经有其它index对应的别名之后，别名可以自动扩展到多个index。一个别名能够关联上一个过滤器，当搜索和路由的时候能够自动使用这个过滤器。
+index aliases的API允许我们为一个index指定别名。一个别名能够被映射到多个index中，当指定了index对应已经有其它index对应的别名之后，别名可以自动扩展到多个index。一个别名能够关联上一个过滤器，当搜索和路由的时候能够自动使用这个过滤器。
 
 * 查询别名
 ```

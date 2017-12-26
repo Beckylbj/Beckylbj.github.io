@@ -2,8 +2,8 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "Archive"
-crawlertitle: "All articles"
+title: "Tags"
+crawlertitle: "Tags"
 summary: "Search for tags"
 active: archive
 ---

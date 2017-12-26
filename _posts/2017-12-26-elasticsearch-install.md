@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "elasticsearch install"
-crawlertitle: "Hello"
-summary: "default page"
-date:   2017-12-26 11:10:00
+crawlertitle: "elasticsearch"
+summary: "how to install elasticsearch"
+date:   2017-12-26
 categories: posts
 tags: 'Elasticsearch-1.7.6'
 author: Becky

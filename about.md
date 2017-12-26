@@ -1,9 +1,9 @@
 ---
 bg: "owl.jpg"
 layout: page
+permalink: /about/
 title: "About"
 crawlertitle: "Abount me and this page"
-permalink: /about/
 summary: "About this blog"
 active: about
 ---

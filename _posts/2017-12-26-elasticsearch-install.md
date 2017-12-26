@@ -12,10 +12,11 @@ author: Becky
 
 * 安装jdk
 * download from [Elasticsearch download](https://www.elastic.co/downloads/elasticsearch "Elasticsearch download") 
+
 ```
-    * curl -L -o http://download.elasticsearch.org/PATH/TO/VERSION.zip
-    * unzip elasticsearch-$VERSION.zip
-    * cd elasticsearch-$VERSION
+    curl -L -o http://download.elasticsearch.org/PATH/TO/VERSION.zip
+    unzip elasticsearch-$VERSION.zip
+    cd elasticsearch-$VERSION
 ```
 * 启动elasticsearch
 ```

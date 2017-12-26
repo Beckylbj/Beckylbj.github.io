@@ -12,13 +12,19 @@ author: Becky
 
 * 安装jdk
 * download from [Elasticsearch download](https://www.elastic.co/downloads/elasticsearch "Elasticsearch download") 
+```
     * curl -L -o http://download.elasticsearch.org/PATH/TO/VERSION.zip
     * unzip elasticsearch-$VERSION.zip
     * cd elasticsearch-$VERSION
+```
 * 启动elasticsearch
-    * ./bin/elasticsearch
+```
+    ./bin/elasticsearch
+```
 * 访问ES
-    * curl 'http://localhost:9200/?pretty'
+```
+    curl 'http://localhost:9200/?pretty'
+```
 * 访问返回 
  ```
     {

@@ -9,6 +9,7 @@ tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
 ##### Index 是什么
+
 假如依照关系型数据库做一个比喻，index就像关系型数据库里的database，type就像database里的table。但这并不正确
 
 Index存储在多个分片中，其中每一个分片都是一个独立的Lucene Index。每个Lucene Index都需要消耗一些磁盘，内存和文档描述符。因此，一个大的index比多个小index效率更高：Lucene Index的固定开销被摊分到更多文档上了

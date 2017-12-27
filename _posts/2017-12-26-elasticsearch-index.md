@@ -29,9 +29,9 @@ Index存储在多个分片中，其中每一个分片都是一个独立的Lucene
 ```
 * 查询一个index的数据
 ```
-    curl -XGET http://192.168.14.110:9200/_search
+    curl -XGET http://192.168.14.110:9200/indexname/_search
 ```
 * 查询一个index的结构
 ```
-    curl -XGET http://192.168.14.110:9200/_mapping
+    curl -XGET http://192.168.14.110:9200/indexname/_mapping
 ```

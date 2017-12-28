@@ -18,9 +18,9 @@ author: Becky
 使用
 * copy数据
 ```
-    curl -XPOST  "http://localhost:9200/old_index/old_type/_reindex/new_index/new_type"
+    curl -XPOST  "http://ip:9200/old_index/old_type/_reindex/new_index/new_type"
 ```
 * 查询copy情况
 ```
-    curl -XPOST  "http://localhost:9200/_reindex"
+    curl -XPOST  "http://ip:9200/_reindex"
 ```

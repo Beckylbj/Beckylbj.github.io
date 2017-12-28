@@ -19,7 +19,7 @@ author: Becky
 ##### type操作
 * 添加一个type
 ```
-    curl -XPUT http://192.168.14.110:9200/indexname/typename/_mapping 或 curl -XPUT http://192.168.14.110:9200/indexname/_mapping/typename
+    curl -XPUT http://ip:9200/indexname/typename/_mapping 或 curl -XPUT http://ip:9200/indexname/_mapping/typename
     {
         "properties": {
             "name": {
@@ -30,9 +30,9 @@ author: Becky
 ```
 * 查询一个type的数据
 ```
-    curl -XGET http://192.168.14.110:9200/indexname/typename/_search
+    curl -XGET http://ip:9200/indexname/typename/_search
 ```
 * 查询一个type的结构
 ```
-    curl -XGET http://192.168.14.110:9200/indexname/typename/_mapping
+    curl -XGET http://ip:9200/indexname/typename/_mapping
 ```

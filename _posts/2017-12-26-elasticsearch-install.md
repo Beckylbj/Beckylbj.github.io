@@ -24,7 +24,7 @@ author: Becky
 ```
 * 访问ES
 ```
-    curl 'http://localhost:9200/?pretty'
+    curl 'http://ip:9200/?pretty'
 ```
 * 访问返回 
  ```

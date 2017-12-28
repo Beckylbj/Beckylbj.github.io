@@ -13,7 +13,7 @@ index aliases的API允许我们为一个index指定别名。一个别名能够�
 
 * 查询别名
 ```
-    curl -XGET 'http://localhost:9200/index/_alias'
+    curl -XGET 'http://ip:9200/index/_alias'
 ```
 返回结果
 ```
@@ -26,11 +26,11 @@ index aliases的API允许我们为一个index指定别名。一个别名能够�
 
 * 创建index别名
 ```
-    curl -XPOST 'http://localhost:9200/index/_alias/index_alias'
+    curl -XPOST 'http://ip:9200/index/_alias/index_alias'
 ```
 或
 ```
-    curl -XPOST 'http://localhost:9200/_aliases'
+    curl -XPOST 'http://ip:9200/_aliases'
     {  
         "actions" : [  
             { "add" : { "index" : "test1","alias" : "alias1" } }  

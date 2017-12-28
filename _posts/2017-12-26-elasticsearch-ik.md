@@ -44,7 +44,7 @@ author: Becky
 
 重启后做测试：
 ```
-    curl -XPOST  "http://localhost:9200/userinfo/_analyze?analyzer=ik&pretty=true&text=我是中国人" 
+    curl -XPOST  "http://ip:9200/userinfo/_analyze?analyzer=ik&pretty=true&text=我是中国人" 
 ```
 测试返回结果：
 ```

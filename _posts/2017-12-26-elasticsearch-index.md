@@ -22,17 +22,17 @@ Index存储在多个分片中，其中每一个分片都是一个独立的Lucene
 ##### index操作
 * 添加一个index
 ```
-    curl -XPUT http://192.168.14.110:9200/indexname
+    curl -XPUT http://ip:9200/indexname
 ```
 * 删除一个index
 ```
-    curl -XDELETE http://192.168.14.110:9200/indexname
+    curl -XDELETE http://ip:9200/indexname
 ```
 * 查询一个index的数据
 ```
-    curl -XGET http://192.168.14.110:9200/indexname/_search
+    curl -XGET http://ip:9200/indexname/_search
 ```
 * 查询一个index的结构
 ```
-    curl -XGET http://192.168.14.110:9200/indexname/_mapping
+    curl -XGET http://ip:9200/indexname/_mapping
 ```

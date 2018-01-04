@@ -70,6 +70,56 @@ author: Becky
     }
 ```
 
+* phrase 短语查询
+
+```
+下面两个query是等价的
+
+    {
+        "query":{
+            "match_phrase" : {
+                "message" : "this is a test"
+            }
+        }
+    }
+
+    {
+        "query":{
+            "match" : {
+                "message" : {
+                    "query" : "this is a test",
+                    "type" : "phrase"
+                }
+            }
+        }
+    }
+```
+
+* match_phrase_prefix
+
+```
+下面两个query是等价的
+
+    {
+        "query":{
+            "match_phrase_prefix" : {
+                "message" : "this is a test"
+            }
+        }
+    }
+
+    {
+        "query":{
+            "match" : {
+                "message" : {
+                    "query" : "this is a test",
+                    "type" : "phrase_prefix"
+                }
+            }
+        }
+    }
+```
+
 * minimum_should_match 指定最少匹配多少
 
 ```

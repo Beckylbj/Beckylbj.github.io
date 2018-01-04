@@ -8,7 +8,7 @@ categories: posts
 tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
-##### elasticsearch-analysis-ik 是一个中文分词插件，支持自定义词库。
+<h5>elasticsearch-analysis-ik 是一个中文分词插件，支持自定义词库。</h5>
 
 * 到[github](https://github.com/medcl/elasticsearch-analysis-ik "github")，确认使用的ES版本，根据版本选定ik版本，点击下载源代码elasticsearch-analysis-ik-master.zip
 * 解压文件elasticsearch-analysis-ik-master.zip

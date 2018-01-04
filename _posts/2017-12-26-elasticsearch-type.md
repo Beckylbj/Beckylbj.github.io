@@ -17,6 +17,7 @@ author: Becky
 * 在已有数据的情况下，type的字段名称，类型，配置不能更换
 
 ##### type操作
+
 * 添加一个type
 ```
     curl -XPUT http://ip:9200/indexname/typename/_mapping 或 curl -XPUT http://ip:9200/indexname/_mapping/typename

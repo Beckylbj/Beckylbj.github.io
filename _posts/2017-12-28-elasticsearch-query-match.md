@@ -9,7 +9,6 @@ tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
 <h5>The default match query type is boolean type. </h5>
-</br>
 
 ```
     curl -XPOST http://ip:9200/indexname/typename/_search 

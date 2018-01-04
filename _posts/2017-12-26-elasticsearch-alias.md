@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch index alias"
+title:  "elasticsearch index alias(别名)"
 crawlertitle: "elasticsearch"
 summary: "how to use index alias"
 date:   2017-12-26

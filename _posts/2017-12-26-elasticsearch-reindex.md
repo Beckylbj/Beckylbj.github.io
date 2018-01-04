@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch reindex"
+title:  "elasticsearch reindex(重新构建index)"
 crawlertitle: "elasticsearch"
 summary: "how to install elasticsearch reindex and use it"
 date:   2017-12-26

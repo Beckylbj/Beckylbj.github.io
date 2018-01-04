@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch query"
+title:  "elasticsearch query(基本查询)"
 crawlertitle: "elasticsearch"
 summary: "How to query in elasticsearch"
 date:   2017-12-28

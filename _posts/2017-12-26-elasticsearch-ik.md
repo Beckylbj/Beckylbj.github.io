@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch ik analyzer"
+title:  "elasticsearch ik analyzer(中文分词插件)"
 crawlertitle: "elasticsearch"
 summary: "how to install ik and use ik analyzer"
 date:   2017-12-26

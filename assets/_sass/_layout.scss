@@ -200,14 +200,12 @@ main {
   &:after {
     content: "***";
     position: absolute;
-    margin-top: 1em;
     width: 100px;
     left: 50%;
   }
 }
 
 article {
-  padding: 2em 1em;
   img,
   embed,
   object,

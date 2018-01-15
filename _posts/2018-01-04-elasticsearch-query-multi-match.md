@@ -8,3 +8,21 @@ categories: posts
 tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
+
+***** 允许多个字段的查询
+
+```
+    {
+        "multi_match" : {
+            "query":    "this is a test", 
+            "fields": [ "subject", "message" ] 
+        }
+    }
+
+    {
+        "multi_match" : {
+            "query":    "Will Smith",
+            "fields": [ "title", "*_name" ] 
+        }
+    }
+```

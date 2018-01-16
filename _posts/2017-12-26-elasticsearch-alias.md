@@ -47,7 +47,11 @@ author: Becky
 
 * 删除index别名
 ```
-    
+    curl -XDELETE 'http://ip:9200/index/_alias/index_alias'
+```
+或
+```
+    curl -XPOST 'http://ip:9200/_aliases'
     {  
         "actions" : [  
             { "remove" : { "index" : "testalias","alias" : "testalias_v2" } }  

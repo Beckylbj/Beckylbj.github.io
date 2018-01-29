@@ -9,7 +9,7 @@ tags: 'Elasticsearch-1.7.6'
 author: Becky
 ---
 
-***** 允许多个字段的查询
+<h5>允许多个字段的查询</h5>
 
 ```
     {

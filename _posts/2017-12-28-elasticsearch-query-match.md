@@ -148,3 +148,14 @@ author: Becky
 ```
 
 * zero_terms_query, can be set to none or all, default is none. The all is corresponds to a match all query.
+
+* or
+```
+    {
+        "query":{
+            "match":{
+                "promotionProductUid":"43397603323925032|43397603324931086"
+            }
+        }
+    }
+```

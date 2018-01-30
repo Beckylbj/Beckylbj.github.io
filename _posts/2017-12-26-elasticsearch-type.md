@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch type"
+title:  "elasticsearch type(type)"
 crawlertitle: "elasticsearch"
 summary: "What is elasticsearch type and how to use it"
 date:   2017-12-26

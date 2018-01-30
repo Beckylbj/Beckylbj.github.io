@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch install"
+title:  "elasticsearch install(安装)"
 crawlertitle: "elasticsearch"
 summary: "how to install elasticsearch"
 date:   2017-12-26

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearch index"
+title:  "elasticsearch index(index)"
 crawlertitle: "elasticsearch"
 summary: "What is elasticsearch index and how to use it"
 date:   2017-12-26
